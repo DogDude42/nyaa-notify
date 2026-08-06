@@ -1,6 +1,6 @@
 import feedparser, json, os, urllib.request
 
-SEARCH = "hololive serendipity"
+SEARCH = "hololive"
 NTFY_TOPIC = os.environ["NTFY_TOPIC"]
 STATE_FILE = "seen.json"
 RSS_URL = f"https://nyaa.si/?page=rss&q={SEARCH.replace(' ', '+')}&c=0_0&f=0"
